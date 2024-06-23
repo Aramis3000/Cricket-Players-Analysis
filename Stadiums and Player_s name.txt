@@ -1,0 +1,44 @@
+
+
+Note: The Dataset has somedummy data due lack of data available online having accurate data for each player at all stadiums
+
+
+*******Stadiums*******
+Narendra Modi Stadium
+Wankhede Stadium
+Himachal Pradesh Cricket Association Stadium
+Eden Gardens
+Feroz Shah Kotla Stadium
+Sawai Mansingh Stadium
+Rajiv Gandhi Stadium
+M. Chinnaswamy Stadium
+Atal Bihari Vajpayee Stadium
+MA Chidambaram Stadium
+Lord's
+
+*******Batsman's and All rounders*******
+Virat Kohli
+Rohit Sharma
+Mahendra Singh Dhoni
+Ravindra Jadeja
+Hardik Pandya
+Jos Buttler 
+Steven Smith
+Ben Strokes
+David Warner
+Kane Williamson
+Shreyas Iyer
+Shikhar Dhawan
+Ajinkya Rahane
+
+*******Bowler's and All rounders*******
+Jasprit Bumrah
+Mohammed Shami
+Bhuvneshwar Kumar
+Mohammed Siraj
+Yuzvendra Chahal
+Ravichandran Ashwin
+Trent Boult
+Rashid Khan
+Josh Hazlewood
+Sam Curran

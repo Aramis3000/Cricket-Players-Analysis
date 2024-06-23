@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Player Data Comparison</title>
+    <link rel="stylesheet" href="../static/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Player Data Comparison</h1>
+    <div class="container">
+        <label for="stadiumName">Stadium Name:</label>
+        <select id="stadiumName">
+            <option value="" disabled selected>Select a stadium</option>
+        </select>
+
+        <label for="player1Name">Player 1 Name:</label>
+        <select id="player1Name">
+            <option value="" disabled selected>Select player 1</option>
+        </select>
+
+        <label for="player2Name">Player 2 Name:</label>
+        <select id="player2Name">
+            <option value="" disabled selected>Select player 2</option>
+        </select>
+        <br>
+        <button onclick="comparePlayers()">Compare Players</button>
+    </div>
+
+    <div class="bar-chart" id="barChartContainer">
+        <canvas id="barChart"></canvas>
+    </div>
+
+    <div class="container" id="dataContainer"></div>
+
+    <script>
+        async function fetchOptions() {
+            try {
+                const stadiumsResponse = await fetch('/api/stadiums');
+                const playersResponse = await fetch('/api/players');
+
+                const stadiums = await stadiumsResponse.json();
+                const players = await playersResponse.json();
+
+                const stadiumNameSelect = document.getElementById('stadiumName');
+                const player1NameSelect = document.getElementById('player1Name');
+                const player2NameSelect = document.getElementById('player2Name');
+
+                stadiums.forEach(stadium => {
+                    const option = document.createElement('option');
+                    option.value = stadium;
+                    option.text = stadium;
+                    stadiumNameSelect.appendChild(option);
+                });
+
+                players.forEach(player => {
+                    const option1 = document.createElement('option');
+                    option1.value = player;
+                    option1.text = player;
+                    player1NameSelect.appendChild(option1);
+
+                    const option2 = document.createElement('option');
+                    option2.value = player;
+                    option2.text = player;
+                    player2NameSelect.appendChild(option2);
+                });
+            } catch (error) {
+                console.error('Error fetching options:', error);
+            }
+        }
+
+        function fetchData(stadium, player) {
+            return fetch(`/api/player_data/${encodeURIComponent(stadium)}/${encodeURIComponent(player)}`)
+                .then(response => response.json())
+                .then(data => data[0])
+                .catch(error => console.error('Error fetching data:', error));
+        }
+
+        function displayPlayerData(playerData, playerNumber) {
+            const dataContainer = document.getElementById("dataContainer");
+            const playerTable = `
+                <h2>Player ${playerNumber} Data:</h2>
+                <table>
+                    <tr><th>Player Name</th><td>${playerData.Player_Name}</td></tr>
+                    <tr><th>Stadium Name</th><td>${playerData.Stadium_Name}</td></tr>
+                    <tr><th>Role</th><td>${playerData.Role}</td></tr>
+                    <tr><th>Country</th><td>${playerData.Country}</td></tr>
+                    <tr><th>Highest Runs</th><td>${playerData.Highest_Runs || '-'}</td></tr>
+                    <tr><th>Average Runs</th><td>${playerData.Average_Runs || '-'}</td></tr>
+                    <tr><th>Strike Rate</th><td>${playerData.Strike_Rate || '-'}</td></tr>
+                    <tr><th>Total Wickets</th><td>${playerData.Total_Wickets || '-'}</td></tr>
+                    <tr><th>Economy</th><td>${playerData.Economy || '-'}</td></tr>
+                    <tr><th>Dots</th><td>${playerData.Dots || '-'}</td></tr>
+                </table>
+            `;
+            dataContainer.innerHTML += playerTable;
+        }
+
+        function displayComparison(player1Data, player2Data) {
+            const barChartContainer = document.getElementById("barChartContainer");
+            const previousChart = barChartContainer.getElementsByTagName("canvas")[0];
+            if (previousChart) {
+                previousChart.remove();
+            }
+
+            const canvas = document.createElement("canvas");
+            canvas.id = "barChart";
+            barChartContainer.appendChild(canvas);
+
+            const player1Name = player1Data.Player_Name;
+            const player2Name = player2Data.Player_Name;
+            const statsLabels = ["Highest Runs", "Average Runs", "Strike Rate", "Total Wickets", "Economy", "Dots"];
+            const player1Stats = [player1Data.Highest_Runs || 0, player1Data.Average_Runs || 0, player1Data.Strike_Rate || 0, player1Data.Total_Wickets || 0, player1Data.Economy || 0, player1Data.Dots || 0];
+            const player2Stats = [player2Data.Highest_Runs || 0, player2Data.Average_Runs || 0, player2Data.Strike_Rate || 0, player2Data.Total_Wickets || 0, player2Data.Economy || 0, player2Data.Dots || 0];
+
+            new Chart(canvas, {
+                type: "bar",
+                data: {
+                    labels: statsLabels,
+                    datasets: [
+                        {
+                            label: player1Name,
+                            backgroundColor: "rgba(54, 162, 235, 0.7)",
+                            data: player1Stats
+                        },
+                        {
+                            label: player2Name,
+                            backgroundColor: "rgba(255, 99, 132, 0.7)",
+                            data: player2Stats
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    legend: {
+                        position: "top",
+                    },
+                    title: {
+                        display: true,
+                        text: `Comparison of Player Stats for ${player1Name} and ${player2Name}`
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
+        }
+
+        async function comparePlayers() {
+            const player1Name = document.getElementById("player1Name").value;
+            const player2Name = document.getElementById("player2Name").value;
+            const stadiumName = document.getElementById("stadiumName").value;
+
+            try {
+                const player1Data = await fetchData(stadiumName, player1Name);
+                const player2Data = await fetchData(stadiumName, player2Name);
+
+                if (player1Data && player2Data) {
+                    document.getElementById("dataContainer").innerHTML = "";
+                    displayPlayerData(player1Data, 1);
+                    displayPlayerData(player2Data, 2);
+                    displayComparison(player1Data, player2Data);
+                } else {
+                    alert("One or both players not found in the selected stadium.");
+                }
+            } catch (error) {
+                console.error("Error comparing players:", error);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', fetchOptions);
+    </script>
+</body>
+</html>

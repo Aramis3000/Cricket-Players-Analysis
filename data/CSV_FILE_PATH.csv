@@ -1,0 +1,201 @@
+Stadium_Name,Stadium_ID,Player_Name,Player_ID,Role,Country,Highest_Runs,Average_Runs,Strike_Rate,Total_Wickets,Economy,Dots
+Narendra Modi Stadium,1000,Virat Kohli,1,Middle Order Batsman,India,35,18,101.89,NA,NA,NA
+Narendra Modi Stadium,1000,Rohit Sharma,2,Top Order Batsman,India,8,5,66.67,NA,NA,NA
+Narendra Modi Stadium,1000,Mahendra Singh Dhoni,3,WicketKeeper Batsman,India,14,14,175,NA,NA,NA
+Narendra Modi Stadium,1000,Ravindra Jadeja,4,All Rounder,India,16,15,200,2,8.25,12
+Narendra Modi Stadium,1000,Hardik Pandya,5,All Rounder,India,59,37.33,129.48,5,8.2,57
+Narendra Modi Stadium,1000,Jos Buttler ,6,WicketKeeper Batsman,England,106,72.5,145,NA,NA,NA
+Narendra Modi Stadium,1000,Steven Smith,7,Middle Order Batsman,Australia,25,14.5,107,NA,NA,NA
+Narendra Modi Stadium,1000,Ben Strokes,8,All Rounder,England,7,7,116.67,3,7.5,30
+Narendra Modi Stadium,1000,David Warner,9,Top Order Batsman,Australia,2,2,100,NA,NA,NA
+Narendra Modi Stadium,1000,Kane Williamson,10,Middle Order Batsman,New Zealand,30,20,130,NA,NA,NA
+Narendra Modi Stadium,1000,Jasprit Bumrah,11,Fast Bowler,India,NA,NA,NA,0,0,0
+Narendra Modi Stadium,1000,Mohammed Shami,12,Fast Bowler,India,NA,NA,NA,20,7.44,152
+Narendra Modi Stadium,1000,Bhuvneshwar Kumar,13,Swing Bowler,India,NA,NA,NA,1,11,17
+Narendra Modi Stadium,1000,Mohammed Siraj,14,Fast Bowler,India,NA,NA,NA,5,7.5,11
+Narendra Modi Stadium,1000,Yuzvendra Chahal,15,Leg-Spin Bowler,India,NA,NA,NA,3,8.06,29
+Narendra Modi Stadium,1000,Ravichandran Ashwin,16,Off-Spin Bowler,India,NA,NA,NA,4,9.5,40
+Narendra Modi Stadium,1000,Trent Boult,17,Fast & Medium Swing Bowler,New Zealand,NA,NA,NA,3,7.33,36
+Narendra Modi Stadium,1000,Rashid Khan,18,All Rounder,Afganistan,10,7,175,14,8.23,76
+Narendra Modi Stadium,1000,Josh Hazlewood,19,Fast Bowler,Australia,NA,NA,NA,2,5.75,12
+Narendra Modi Stadium,1000,Sam Curran,20,All Rounder,England,17,10,60,5,7.86,24
+Wankhede Stadium,2000,Virat Kohli,1,Middle Order Batsman,India,92,40.18,133.94,NA,NA,NA
+Wankhede Stadium,2000,Rohit Sharma,2,Top Order Batsman,India,94,34.4,137.27,NA,NA,NA
+Wankhede Stadium,2000,Mahendra Singh Dhoni,3,WicketKeeper Batsman,India,50,24.33,111.45,NA,NA,NA
+Wankhede Stadium,2000,Ravindra Jadeja,4,All Rounder,India,62,29.62,138.6,15,7.44,135
+Wankhede Stadium,2000,Hardik Pandya,5,All Rounder,India,62,28.5,145.78,23,9.36,163
+Wankhede Stadium,2000,Jos Buttler ,6,WicketKeeper Batsman,England,94,30.2,140.79,NA,NA,NA
+Wankhede Stadium,2000,Steven Smith,7,Middle Order Batsman,Australia,62,29.9,115,NA,NA,NA
+Wankhede Stadium,2000,Ben Strokes,8,All Rounder,England,62,29.9,115,4,6.56,23
+Wankhede Stadium,2000,David Warner,9,Top Order Batsman,Australia,66,35.38,152.97,NA,NA,NA
+Wankhede Stadium,2000,Kane Williamson,10,Middle Order Batsman,New Zealand,47,16.86,119.19,NA,NA,NA
+Wankhede Stadium,2000,Jasprit Bumrah,11,Fast Bowler,India,NA,NA,NA,39,7.79,347
+Wankhede Stadium,2000,Mohammed Shami,12,Fast Bowler,India,NA,NA,NA,16,8.5,107
+Wankhede Stadium,2000,Bhuvneshwar Kumar,13,Swing Bowler,India,NA,NA,NA,13,6.81,117
+Wankhede Stadium,2000,Mohammed Siraj,14,Fast Bowler,India,NA,NA,NA,6,8.79,75
+Wankhede Stadium,2000,Yuzvendra Chahal,15,Leg-Spin Bowler,India,NA,NA,NA,16,8.49,95
+Wankhede Stadium,2000,Ravichandran Ashwin,16,Off-Spin Bowler,India,NA,NA,NA,13,7.96,105
+Wankhede Stadium,2000,Trent Boult,17,Fast & Medium Swing Bowler,New Zealand,NA,NA,NA,7,8.25,45
+Wankhede Stadium,2000,Rashid Khan,18,All Rounder,Afganistan,79,68.5,220.97,13,6.28,94
+Wankhede Stadium,2000,Josh Hazlewood,19,Fast Bowler,Australia,NA,NA,NA,7,7.73,42
+Wankhede Stadium,2000,Sam Curran,20,All Rounder,England,119,36.43,142.46,6,10.33,56
+Himachal Pradesh Cricket Association Stadium,3000,Virat Kohli,1,Middle Order Batsman,India,,,,NA,NA,NA
+Himachal Pradesh Cricket Association Stadium,3000,Rohit Sharma,2,Top Order Batsman,India,25,25,100,NA,NA,NA
+Himachal Pradesh Cricket Association Stadium,3000,Mahendra Singh Dhoni,3,WicketKeeper Batsman,India,,,,NA,NA,NA
+Himachal Pradesh Cricket Association Stadium,3000,Ravindra Jadeja,4,All Rounder,India,,,,,,
+Himachal Pradesh Cricket Association Stadium,3000,Hardik Pandya,5,All Rounder,India,,,,,,
+Himachal Pradesh Cricket Association Stadium,3000,Jos Buttler ,6,WicketKeeper Batsman,England,0,0,0,NA,NA,NA
+Himachal Pradesh Cricket Association Stadium,3000,Steven Smith,7,Middle Order Batsman,Australia,,,,NA,NA,NA
+Himachal Pradesh Cricket Association Stadium,3000,Ben Strokes,8,All Rounder,England,,,,,,
+Himachal Pradesh Cricket Association Stadium,3000,David Warner,9,Top Order Batsman,Australia,46,23,143.75,NA,NA,NA
+Himachal Pradesh Cricket Association Stadium,3000,Kane Williamson,10,Middle Order Batsman,New Zealand,,,,NA,NA,NA
+Himachal Pradesh Cricket Association Stadium,3000,Jasprit Bumrah,11,Fast Bowler,India,NA,NA,NA,,,
+Himachal Pradesh Cricket Association Stadium,3000,Mohammed Shami,12,Fast Bowler,India,NA,NA,NA,,,
+Himachal Pradesh Cricket Association Stadium,3000,Bhuvneshwar Kumar,13,Swing Bowler,India,NA,NA,NA,,,
+Himachal Pradesh Cricket Association Stadium,3000,Mohammed Siraj,14,Fast Bowler,India,NA,NA,NA,,,
+Himachal Pradesh Cricket Association Stadium,3000,Yuzvendra Chahal,15,Leg-Spin Bowler,India,NA,NA,NA,,,
+Himachal Pradesh Cricket Association Stadium,3000,Ravichandran Ashwin,16,Off-Spin Bowler,India,NA,NA,NA,,,
+Himachal Pradesh Cricket Association Stadium,3000,Trent Boult,17,Fast & Medium Swing Bowler,New Zealand,NA,NA,NA,,,
+Himachal Pradesh Cricket Association Stadium,3000,Rashid Khan,18,All Rounder,Afganistan,30,30,136,,,
+Himachal Pradesh Cricket Association Stadium,3000,Josh Hazlewood,19,Fast Bowler,Australia,NA,NA,NA,,,
+Himachal Pradesh Cricket Association Stadium,3000,Sam Curran,20,All Rounder,England,,,,,,
+Eden Gardens,4000,Virat Kohli,1,Middle Order Batsman,India,,,,NA,NA,NA
+Eden Gardens,4000,Rohit Sharma,2,Top Order Batsman,India,,,,NA,NA,NA
+Eden Gardens,4000,Mahendra Singh Dhoni,3,WicketKeeper Batsman,India,,,,NA,NA,NA
+Eden Gardens,4000,Ravindra Jadeja,4,All Rounder,India,,,,,,
+Eden Gardens,4000,Hardik Pandya,5,All Rounder,India,,,,,,
+Eden Gardens,4000,Jos Buttler ,6,WicketKeeper Batsman,England,,,,NA,NA,NA
+Eden Gardens,4000,Steven Smith,7,Middle Order Batsman,Australia,,,,NA,NA,NA
+Eden Gardens,4000,Ben Strokes,8,All Rounder,England,,,,,,
+Eden Gardens,4000,David Warner,9,Top Order Batsman,Australia,,,,NA,NA,NA
+Eden Gardens,4000,Kane Williamson,10,Middle Order Batsman,New Zealand,,,,NA,NA,NA
+Eden Gardens,4000,Jasprit Bumrah,11,Fast Bowler,India,NA,NA,NA,,,
+Eden Gardens,4000,Mohammed Shami,12,Fast Bowler,India,NA,NA,NA,,,
+Eden Gardens,4000,Bhuvneshwar Kumar,13,Swing Bowler,India,NA,NA,NA,,,
+Eden Gardens,4000,Mohammed Siraj,14,Fast Bowler,India,NA,NA,NA,,,
+Eden Gardens,4000,Yuzvendra Chahal,15,Leg-Spin Bowler,India,NA,NA,NA,,,
+Eden Gardens,4000,Ravichandran Ashwin,16,Off-Spin Bowler,India,NA,NA,NA,,,
+Eden Gardens,4000,Trent Boult,17,Fast & Medium Swing Bowler,New Zealand,NA,NA,NA,,,
+Eden Gardens,4000,Rashid Khan,18,All Rounder,Afganistan,,,,,,
+Eden Gardens,4000,Josh Hazlewood,19,Fast Bowler,Australia,NA,NA,NA,,,
+Eden Gardens,4000,Sam Curran,20,All Rounder,England,,,,,,
+Feroz Shah Kotla Stadium,5000,Virat Kohli,1,Middle Order Batsman,India,,,,NA,NA,NA
+Feroz Shah Kotla Stadium,5000,Rohit Sharma,2,Top Order Batsman,India,,,,NA,NA,NA
+Feroz Shah Kotla Stadium,5000,Mahendra Singh Dhoni,3,WicketKeeper Batsman,India,,,,NA,NA,NA
+Feroz Shah Kotla Stadium,5000,Ravindra Jadeja,4,All Rounder,India,,,,,,
+Feroz Shah Kotla Stadium,5000,Hardik Pandya,5,All Rounder,India,,,,,,
+Feroz Shah Kotla Stadium,5000,Jos Buttler ,6,WicketKeeper Batsman,England,,,,NA,NA,NA
+Feroz Shah Kotla Stadium,5000,Steven Smith,7,Middle Order Batsman,Australia,,,,NA,NA,NA
+Feroz Shah Kotla Stadium,5000,Ben Strokes,8,All Rounder,England,,,,,,
+Feroz Shah Kotla Stadium,5000,David Warner,9,Top Order Batsman,Australia,,,,NA,NA,NA
+Feroz Shah Kotla Stadium,5000,Kane Williamson,10,Middle Order Batsman,New Zealand,,,,NA,NA,NA
+Feroz Shah Kotla Stadium,5000,Jasprit Bumrah,11,Fast Bowler,India,NA,NA,NA,,,
+Feroz Shah Kotla Stadium,5000,Mohammed Shami,12,Fast Bowler,India,NA,NA,NA,,,
+Feroz Shah Kotla Stadium,5000,Bhuvneshwar Kumar,13,Swing Bowler,India,NA,NA,NA,,,
+Feroz Shah Kotla Stadium,5000,Mohammed Siraj,14,Fast Bowler,India,NA,NA,NA,,,
+Feroz Shah Kotla Stadium,5000,Yuzvendra Chahal,15,Leg-Spin Bowler,India,NA,NA,NA,,,
+Feroz Shah Kotla Stadium,5000,Ravichandran Ashwin,16,Off-Spin Bowler,India,NA,NA,NA,,,
+Feroz Shah Kotla Stadium,5000,Trent Boult,17,Fast & Medium Swing Bowler,New Zealand,NA,NA,NA,,,
+Feroz Shah Kotla Stadium,5000,Rashid Khan,18,All Rounder,Afganistan,,,,,,
+Feroz Shah Kotla Stadium,5000,Josh Hazlewood,19,Fast Bowler,Australia,NA,NA,NA,,,
+Feroz Shah Kotla Stadium,5000,Sam Curran,20,All Rounder,England,,,,,,
+Sawai Mansingh Stadium,6000,Virat Kohli,1,Middle Order Batsman,India,,,,NA,NA,NA
+Sawai Mansingh Stadium,6000,Rohit Sharma,2,Top Order Batsman,India,,,,NA,NA,NA
+Sawai Mansingh Stadium,6000,Mahendra Singh Dhoni,3,WicketKeeper Batsman,India,,,,NA,NA,NA
+Sawai Mansingh Stadium,6000,Ravindra Jadeja,4,All Rounder,India,,,,,,
+Sawai Mansingh Stadium,6000,Hardik Pandya,5,All Rounder,India,,,,,,
+Sawai Mansingh Stadium,6000,Jos Buttler ,6,WicketKeeper Batsman,England,,,,NA,NA,NA
+Sawai Mansingh Stadium,6000,Steven Smith,7,Middle Order Batsman,Australia,,,,NA,NA,NA
+Sawai Mansingh Stadium,6000,Ben Strokes,8,All Rounder,England,,,,,,
+Sawai Mansingh Stadium,6000,David Warner,9,Top Order Batsman,Australia,,,,NA,NA,NA
+Sawai Mansingh Stadium,6000,Kane Williamson,10,Middle Order Batsman,New Zealand,,,,NA,NA,NA
+Sawai Mansingh Stadium,6000,Jasprit Bumrah,11,Fast Bowler,India,NA,NA,NA,,,
+Sawai Mansingh Stadium,6000,Mohammed Shami,12,Fast Bowler,India,NA,NA,NA,,,
+Sawai Mansingh Stadium,6000,Bhuvneshwar Kumar,13,Swing Bowler,India,NA,NA,NA,,,
+Sawai Mansingh Stadium,6000,Mohammed Siraj,14,Fast Bowler,India,NA,NA,NA,,,
+Sawai Mansingh Stadium,6000,Yuzvendra Chahal,15,Leg-Spin Bowler,India,NA,NA,NA,,,
+Sawai Mansingh Stadium,6000,Ravichandran Ashwin,16,Off-Spin Bowler,India,NA,NA,NA,,,
+Sawai Mansingh Stadium,6000,Trent Boult,17,Fast & Medium Swing Bowler,New Zealand,NA,NA,NA,,,
+Sawai Mansingh Stadium,6000,Rashid Khan,18,All Rounder,Afganistan,,,,,,
+Sawai Mansingh Stadium,6000,Josh Hazlewood,19,Fast Bowler,Australia,NA,NA,NA,,,
+Sawai Mansingh Stadium,6000,Sam Curran,20,All Rounder,England,,,,,,
+Rajiv Gandhi Stadium,7000,Virat Kohli,1,Middle Order Batsman,India,,,,NA,NA,NA
+Rajiv Gandhi Stadium,7000,Rohit Sharma,2,Top Order Batsman,India,,,,NA,NA,NA
+Rajiv Gandhi Stadium,7000,Mahendra Singh Dhoni,3,WicketKeeper Batsman,India,,,,NA,NA,NA
+Rajiv Gandhi Stadium,7000,Ravindra Jadeja,4,All Rounder,India,,,,,,
+Rajiv Gandhi Stadium,7000,Hardik Pandya,5,All Rounder,India,,,,,,
+Rajiv Gandhi Stadium,7000,Jos Buttler ,6,WicketKeeper Batsman,England,,,,NA,NA,NA
+Rajiv Gandhi Stadium,7000,Steven Smith,7,Middle Order Batsman,Australia,,,,NA,NA,NA
+Rajiv Gandhi Stadium,7000,Ben Strokes,8,All Rounder,England,,,,,,
+Rajiv Gandhi Stadium,7000,David Warner,9,Top Order Batsman,Australia,,,,NA,NA,NA
+Rajiv Gandhi Stadium,7000,Kane Williamson,10,Middle Order Batsman,New Zealand,,,,NA,NA,NA
+Rajiv Gandhi Stadium,7000,Jasprit Bumrah,11,Fast Bowler,India,NA,NA,NA,,,
+Rajiv Gandhi Stadium,7000,Mohammed Shami,12,Fast Bowler,India,NA,NA,NA,,,
+Rajiv Gandhi Stadium,7000,Bhuvneshwar Kumar,13,Swing Bowler,India,NA,NA,NA,,,
+Rajiv Gandhi Stadium,7000,Mohammed Siraj,14,Fast Bowler,India,NA,NA,NA,,,
+Rajiv Gandhi Stadium,7000,Yuzvendra Chahal,15,Leg-Spin Bowler,India,NA,NA,NA,,,
+Rajiv Gandhi Stadium,7000,Ravichandran Ashwin,16,Off-Spin Bowler,India,NA,NA,NA,,,
+Rajiv Gandhi Stadium,7000,Trent Boult,17,Fast & Medium Swing Bowler,New Zealand,NA,NA,NA,,,
+Rajiv Gandhi Stadium,7000,Rashid Khan,18,All Rounder,Afganistan,,,,,,
+Rajiv Gandhi Stadium,7000,Josh Hazlewood,19,Fast Bowler,Australia,NA,NA,NA,,,
+Rajiv Gandhi Stadium,7000,Sam Curran,20,All Rounder,England,,,,,,
+M. Chinnaswamy Stadium,8000,Virat Kohli,1,Middle Order Batsman,India,113,44.36,148.99,NA,NA,NA
+M. Chinnaswamy Stadium,8000,Rohit Sharma,2,Top Order Batsman,India,48,19.12,127.5,NA,NA,NA
+M. Chinnaswamy Stadium,8000,Mahendra Singh Dhoni,3,WicketKeeper Batsman,India,84,56,169.7,NA,NA,NA
+M. Chinnaswamy Stadium,8000,Ravindra Jadeja,4,All Rounder,India,44,21.2,136.7,6,7.75,150
+M. Chinnaswamy Stadium,8000,Hardik Pandya,5,All Rounder,India,107,50,162.12,4,9.58,24
+M. Chinnaswamy Stadium,8000,Jos Buttler ,6,WicketKeeper Batsman,England,73,25.57,157.02,NA,NA,NA
+M. Chinnaswamy Stadium,8000,Steven Smith,7,Middle Order Batsman,Australia,73,25.57,157.02,NA,NA,NA
+M. Chinnaswamy Stadium,8000,Ben Strokes,8,All Rounder,England,104,50,196,4,7.14,20
+M. Chinnaswamy Stadium,8000,David Warner,9,Top Order Batsman,Australia,69,45.14,158,NA,NA,NA
+M. Chinnaswamy Stadium,8000,Kane Williamson,10,Middle Order Batsman,New Zealand,81,45.25,143.65,NA,NA,NA
+M. Chinnaswamy Stadium,8000,Jasprit Bumrah,11,Fast Bowler,India,NA,NA,NA,11,6.93,75
+M. Chinnaswamy Stadium,8000,Mohammed Shami,12,Fast Bowler,India,NA,NA,NA,5,9.81,37
+M. Chinnaswamy Stadium,8000,Bhuvneshwar Kumar,13,Swing Bowler,India,NA,NA,NA,9,7.41,79
+M. Chinnaswamy Stadium,8000,Mohammed Siraj,14,Fast Bowler,India,NA,NA,NA,19,8.58,144
+M. Chinnaswamy Stadium,8000,Yuzvendra Chahal,15,Leg-Spin Bowler,India,NA,NA,NA,52,7.72,330
+M. Chinnaswamy Stadium,8000,Ravichandran Ashwin,16,Off-Spin Bowler,India,NA,NA,NA,9,7.84,71
+M. Chinnaswamy Stadium,8000,Trent Boult,17,Fast & Medium Swing Bowler,New Zealand,NA,NA,NA,7,8.7,48
+M. Chinnaswamy Stadium,8000,Rashid Khan,18,All Rounder,Afganistan,55,30,99,5,7.57,31
+M. Chinnaswamy Stadium,8000,Josh Hazlewood,19,Fast Bowler,Australia,NA,NA,NA,2,7,55
+M. Chinnaswamy Stadium,8000,Sam Curran,20,All Rounder,England,83,83,184.4,3,8,47
+Atal Bihari Vajpayee Stadium,9000,Virat Kohli,1,Middle Order Batsman,India,31,31,103,NA,NA,NA
+Atal Bihari Vajpayee Stadium,9000,Rohit Sharma,2,Top Order Batsman,India,37,37,148,NA,NA,NA
+Atal Bihari Vajpayee Stadium,9000,Mahendra Singh Dhoni,3,WicketKeeper Batsman,India,,,,NA,NA,NA
+Atal Bihari Vajpayee Stadium,9000,Ravindra Jadeja,4,All Rounder,India,,,,1,3.67,8
+Atal Bihari Vajpayee Stadium,9000,Hardik Pandya,5,All Rounder,India,66,66,132,,,
+Atal Bihari Vajpayee Stadium,9000,Jos Buttler ,6,WicketKeeper Batsman,England,,,,NA,NA,NA
+Atal Bihari Vajpayee Stadium,9000,Steven Smith,7,Middle Order Batsman,Australia,,,,NA,NA,NA
+Atal Bihari Vajpayee Stadium,9000,Ben Strokes,8,All Rounder,England,,,,,,
+Atal Bihari Vajpayee Stadium,9000,David Warner,9,Top Order Batsman,Australia,56,56,116.67,NA,NA,NA
+Atal Bihari Vajpayee Stadium,9000,Kane Williamson,10,Middle Order Batsman,New Zealand,,,,NA,NA,NA
+Atal Bihari Vajpayee Stadium,9000,Jasprit Bumrah,11,Fast Bowler,India,NA,NA,NA,,,
+Atal Bihari Vajpayee Stadium,9000,Mohammed Shami,12,Fast Bowler,India,NA,NA,NA,,,
+Atal Bihari Vajpayee Stadium,9000,Bhuvneshwar Kumar,13,Swing Bowler,India,NA,NA,NA,1,9.5,7
+Atal Bihari Vajpayee Stadium,9000,Mohammed Siraj,14,Fast Bowler,India,NA,NA,NA,1,8,12
+Atal Bihari Vajpayee Stadium,9000,Yuzvendra Chahal,15,Leg-Spin Bowler,India,NA,NA,NA,,,
+Atal Bihari Vajpayee Stadium,9000,Ravichandran Ashwin,16,Off-Spin Bowler,India,NA,NA,NA,,,
+Atal Bihari Vajpayee Stadium,9000,Trent Boult,17,Fast & Medium Swing Bowler,New Zealand,NA,NA,NA,,,
+Atal Bihari Vajpayee Stadium,9000,Rashid Khan,18,All Rounder,Afganistan,,,,1,8.25,9
+Atal Bihari Vajpayee Stadium,9000,Josh Hazlewood,19,Fast Bowler,Australia,NA,NA,NA,2,5 14,
+Atal Bihari Vajpayee Stadium,9000,Sam Curran,20,All Rounder,England,6,6,100,3,7.75,9
+MA Chidambaram Stadium,10000,Virat Kohli,1,Middle Order Batsman,India,58,30.5,109.5,NA,NA,NA
+MA Chidambaram Stadium,10000,Rohit Sharma,2,Top Order Batsman,India,67,28.09,124.1,NA,NA,NA
+MA Chidambaram Stadium,10000,Mahendra Singh Dhoni,3,WicketKeeper Batsman,India,75,59.08,153.91,NA,NA,NA
+MA Chidambaram Stadium,10000,Ravindra Jadeja,4,All Rounder,India,38,21,124.71,26,6.55,203
+MA Chidambaram Stadium,10000,Hardik Pandya,5,All Rounder,India,23,16.83,124.69,1,7.8,10
+MA Chidambaram Stadium,10000,Jos Buttler ,6,WicketKeeper Batsman,England,52,29,134.88,NA,NA,NA
+MA Chidambaram Stadium,10000,Steven Smith,7,Middle Order Batsman,Australia,34,18.5,102.78,NA,NA,NA
+MA Chidambaram Stadium,10000,Ben Strokes,8,All Rounder,England,46,27,158.82,1,3.5,12
+MA Chidambaram Stadium,10000,David Warner,9,Top Order Batsman,Australia,57,32.22,117.89,NA,NA,NA
+MA Chidambaram Stadium,10000,Kane Williamson,10,Middle Order Batsman,New Zealand,66,40,122.73,NA,NA,NA
+MA Chidambaram Stadium,10000,Jasprit Bumrah,11,Fast Bowler,India,NA,NA,NA,6,6.23,68
+MA Chidambaram Stadium,10000,Mohammed Shami,12,Fast Bowler,India,NA,NA,NA,4,7.88,36
+MA Chidambaram Stadium,10000,Bhuvneshwar Kumar,13,Swing Bowler,India,NA,NA,NA,6,7.14,83
+MA Chidambaram Stadium,10000,Mohammed Siraj,14,Fast Bowler,India,NA,NA,NA,3,5.31,45
+MA Chidambaram Stadium,10000,Yuzvendra Chahal,15,Leg-Spin Bowler,India,NA,NA,NA,6,7.21,60
+MA Chidambaram Stadium,10000,Ravichandran Ashwin,16,Off-Spin Bowler,India,NA,NA,NA,22,5.78,168
+MA Chidambaram Stadium,10000,Trent Boult,17,Fast & Medium Swing Bowler,New Zealand,NA,NA,NA,7,8.6,79
+MA Chidambaram Stadium,10000,Rashid Khan,18,All Rounder,Afganistan,50,30,150,8,6.89,61
+MA Chidambaram Stadium,10000,Josh Hazlewood,19,Fast Bowler,Australia,NA,NA,NA,0,7,7
+MA Chidambaram Stadium,10000,Sam Curran,20,All Rounder,England,19,12.5,111.11,1,10.12,13
